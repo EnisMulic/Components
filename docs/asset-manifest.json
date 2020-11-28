@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.26007833.chunk.css",
+    "main.js": "./main.4fde040a2b9617bccae8.bundle.js",
+    "main.css.map": "./static/css/main.26007833.chunk.css.map",
+    "main.js.map": "./main.4fde040a2b9617bccae8.bundle.js.map",
+    "runtime~main.js": "./runtime~main.4fde040a2b9617bccae8.bundle.js",
+    "runtime~main.js.map": "./runtime~main.4fde040a2b9617bccae8.bundle.js.map",
+    "vendors~main.js": "./vendors~main.4fde040a2b9617bccae8.bundle.js",
+    "vendors~main.js.map": "./vendors~main.4fde040a2b9617bccae8.bundle.js.map",
+    "iframe.html": "./iframe.html",
+    "static/media/PlayingCardBack.3a4027d8.jpg": "./static/media/PlayingCardBack.3a4027d8.jpg",
+    "static/media/PlayingCardFront.fb4b775d.jpg": "./static/media/PlayingCardFront.fb4b775d.jpg",
+    "vendors~main.4fde040a2b9617bccae8.bundle.js.LICENSE.txt": "./vendors~main.4fde040a2b9617bccae8.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.4fde040a2b9617bccae8.bundle.js",
+    "vendors~main.4fde040a2b9617bccae8.bundle.js",
+    "static/css/main.26007833.chunk.css",
+    "main.4fde040a2b9617bccae8.bundle.js"
+  ]
+}
