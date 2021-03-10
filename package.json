@@ -1,4 +1,5 @@
 {
+    "homepage": "https://enismulic.github.io/components",
     "name": "components",
     "version": "0.1.0",
     "private": true,
@@ -17,7 +18,9 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "storybook": "start-storybook -p 6006 -s public",
-        "build-storybook": "build-storybook -o docs -s ./src/assets"
+        "build-storybook": "build-storybook -o docs -s ./src/assets",
+        "predeploy": "npm run build-storybook",
+        "deploy": "gh-pages -d docs"
     },
     "eslintConfig": {
         "extends": [
@@ -44,6 +47,7 @@
         "@storybook/addon-links": "^6.1.21",
         "@storybook/node-logger": "^6.1.21",
         "@storybook/preset-create-react-app": "^3.1.7",
-        "@storybook/react": "^6.1.21"
+        "@storybook/react": "^6.1.21",
+        "gh-pages": "^3.1.0"
     }
 }
