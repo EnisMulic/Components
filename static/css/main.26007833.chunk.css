@@ -1,0 +1,209 @@
+.Glitch_glitch__2rIrE {
+    color: white;
+    font-family: sans-serif;
+
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+        0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+    -webkit-animation: Glitch_glitch__2rIrE 2000ms infinite;
+
+            animation: Glitch_glitch__2rIrE 2000ms infinite;
+}
+
+.Glitch_glitch__2rIrE span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Glitch_glitch__2rIrE span:first-child {
+    -webkit-animation: Glitch_glitch__2rIrE 650ms infinite;
+            animation: Glitch_glitch__2rIrE 650ms infinite;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+            clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    -webkit-transform: translate(-0.025em, -0.0125em);
+            transform: translate(-0.025em, -0.0125em);
+    /* color: green; */
+    opacity: 0.8;
+}
+
+.Glitch_glitch__2rIrE span:last-child {
+    -webkit-animation: Glitch_glitch__2rIrE 375ms infinite;
+            animation: Glitch_glitch__2rIrE 375ms infinite;
+    -webkit-clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+            clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+    -webkit-transform: translate(0.0125em, 0.025em);
+            transform: translate(0.0125em, 0.025em);
+    /* color: red; */
+    opacity: 0.8;
+}
+
+@-webkit-keyframes Glitch_glitch__2rIrE {
+    0% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    14% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    15% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    49% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    50% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    99% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    100% {
+        text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+            -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+}
+
+@keyframes Glitch_glitch__2rIrE {
+    0% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    14% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    15% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    49% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    50% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    99% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    100% {
+        text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+            -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        -webkit-animation-delay: -1ms !important;
+                animation-delay: -1ms !important;
+        -webkit-animation-duration: 1ms !important;
+                animation-duration: 1ms !important;
+        -webkit-animation-iteration-count: 1 !important;
+                animation-iteration-count: 1 !important;
+        background-attachment: scroll !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
+    }
+}
+
+.FlipCard_flipCard__zwXl2 {
+    background-color: transparent;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+}
+
+.FlipCard_small__1jRX4,
+.FlipCard_small__1jRX4 img {
+    width: 150px;
+    height: 200px;
+}
+
+.FlipCard_medium__3xs62,
+.FlipCard_medium__3xs62 img {
+    width: 300px;
+    height: 400px;
+}
+
+.FlipCard_large__31SWW,
+.FlipCard_large__31SWW img {
+    width: 400px;
+    height: 500px;
+}
+
+.FlipCard_flipCardInner__HqHyb {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    transition: transform 0.6s, -webkit-transform 0.6s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.FlipCard_flipCard__zwXl2:hover .FlipCard_flipCardInner__HqHyb.FlipCard_yAxis__1pyBt {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+.FlipCard_flipCard__zwXl2:hover .FlipCard_flipCardInner__HqHyb.FlipCard_xAxis__16XVv {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+}
+
+.FlipCard_flipCardFront__347HV,
+.FlipCard_flipCardBack__3Typb {
+    object-fit: cover;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.FlipCard_flipCardFront__347HV {
+    color: black;
+}
+
+.FlipCard_flipCardBack__3Typb.FlipCard_yAxis__1pyBt {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+.FlipCard_flipCardBack__3Typb.FlipCard_xAxis__16XVv {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+}
+
+
+/*# sourceMappingURL=main.26007833.chunk.css.map*/
