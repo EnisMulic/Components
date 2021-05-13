@@ -1,11 +1,29 @@
 import React from "react";
-import { withKnobs, text } from "@storybook/addon-knobs";
 
 import Glitch from "../../components/Animations/Glitch";
 
 export default {
     title: "Animations/Glitch",
-    decorators: [withKnobs],
+    argTypes: {
+        text: {
+            defaultValue: "Text",
+            control: {
+                type: "text",
+            },
+        },
+        size: {
+            defaultValue: "6rem",
+            control: {
+                type: "text",
+            },
+        },
+        weight: {
+            defaultValue: "700",
+            control: {
+                type: "text",
+            },
+        },
+    },
 };
 
-export const GlitchText = () => <Glitch text={text("Text", "Text")} />;
+export const GlitchText = (args) => <Glitch {...args} />;
