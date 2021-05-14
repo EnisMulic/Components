@@ -1,6 +1,6 @@
 import React from "react";
 
-import Glitch from "../../components/Animations/Glitch";
+import Glitch from ".";
 
 export default {
     title: "Animations/Glitch",

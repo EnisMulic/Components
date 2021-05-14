@@ -11,17 +11,10 @@ const Wrapper = styled.div`
         width: ${(props) => props.width};
         height: ${(props) => props.height};
     }
-`;
 
-const FlipCardInner = styled.div`
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+    text-align: center;
     :hover {
         ${(props) =>
             props.rotate === "xAxis"
@@ -34,6 +27,17 @@ const FlipCardInner = styled.div`
     }
 `;
 
+const FlipCardInner = styled.div`
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+`;
+
 const FlipCardFront = styled.div`
     object-fit: cover;
     position: absolute;
@@ -42,6 +46,7 @@ const FlipCardFront = styled.div`
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     color: black;
+    word-wrap: break-word;
 `;
 
 const FlipCardBack = styled.div`
@@ -52,6 +57,7 @@ const FlipCardBack = styled.div`
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     color: black;
+    word-wrap: break-word;
     ${(props) =>
         props.rotate === "xAxis"
             ? css`

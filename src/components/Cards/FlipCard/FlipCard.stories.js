@@ -1,7 +1,7 @@
-import FlipCard from "../../components/Cards/FlipCard";
+import FlipCard from ".";
 
-import PlayingCardFront from "../../assets/PlayingCardFront.jpg";
-import PlayingCardBack from "../../assets/PlayingCardBack.jpg";
+import PlayingCardFront from "../../../assets/PlayingCardFront.jpg";
+import PlayingCardBack from "../../../assets/PlayingCardBack.jpg";
 
 export default {
     title: "Cards/FlipCard",
@@ -34,4 +34,12 @@ export default {
     },
 };
 
-export const Card = (args) => <FlipCard {...args} />;
+const Template = (args) => <FlipCard {...args} />;
+
+export const ImageCard = Template.bind({});
+
+export const TextCard = Template.bind({});
+TextCard.args = {
+    front: "Front",
+    back: "Back",
+};
