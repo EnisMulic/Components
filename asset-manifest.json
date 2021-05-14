@@ -1,10 +1,10 @@
 {
   "files": {
     "0.b92c8ca8.iframe.bundle.js": "./0.b92c8ca8.iframe.bundle.js",
-    "main.js": "./main.6c75aa66.iframe.bundle.js",
+    "main.js": "./main.75edf297.iframe.bundle.js",
     "runtime~main.js": "./runtime~main.659f1577.iframe.bundle.js",
-    "vendors~main.js": "./vendors~main.62a6f648.iframe.bundle.js",
-    "vendors~main.js.map": "./vendors~main.62a6f648.iframe.bundle.js.map",
+    "vendors~main.js": "./vendors~main.75fd3999.iframe.bundle.js",
+    "vendors~main.js.map": "./vendors~main.75fd3999.iframe.bundle.js.map",
     "4.23a5eb51.iframe.bundle.js": "./4.23a5eb51.iframe.bundle.js",
     "4.23a5eb51.iframe.bundle.js.map": "./4.23a5eb51.iframe.bundle.js.map",
     "5.79edaceb.iframe.bundle.js": "./5.79edaceb.iframe.bundle.js",
@@ -16,11 +16,11 @@
     "iframe.html": "./iframe.html",
     "static/media/PlayingCardBack.3a4027d8.jpg": "./static/media/PlayingCardBack.3a4027d8.jpg",
     "static/media/PlayingCardFront.fb4b775d.jpg": "./static/media/PlayingCardFront.fb4b775d.jpg",
-    "vendors~main.62a6f648.iframe.bundle.js.LICENSE.txt": "./vendors~main.62a6f648.iframe.bundle.js.LICENSE.txt"
+    "vendors~main.75fd3999.iframe.bundle.js.LICENSE.txt": "./vendors~main.75fd3999.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
     "runtime~main.659f1577.iframe.bundle.js",
-    "vendors~main.62a6f648.iframe.bundle.js",
-    "main.6c75aa66.iframe.bundle.js"
+    "vendors~main.75fd3999.iframe.bundle.js",
+    "main.75edf297.iframe.bundle.js"
   ]
 }
