@@ -1,30 +1,26 @@
 import React from "react";
 import styled, { css } from "styled-components";
 
+const SizeCss = css`
+    width: ${(props) => props.width};
+    height: ${(props) => props.height};
+`;
+
 const Wrapper = styled.div`
     background-color: transparent;
     perspective: 1000px;
-    width: ${(props) => props.width};
-    height: ${(props) => props.height};
+    ${SizeCss}
 
     img {
-        width: ${(props) => props.width};
-        height: ${(props) => props.height};
+        ${SizeCss}
     }
 
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
     text-align: center;
-    :hover {
-        ${(props) =>
-            props.rotate === "xAxis"
-                ? css`
-                      transform: rotateX(180deg);
-                  `
-                : css`
-                      transform: rotateY(180deg);
-                  `}
-    }
+`;
+
+const RotateCss = css`
+    transform: ${({ rotate }) =>
+        rotate === "xAxis" ? "rotateX(180deg)" : "rotateY(180deg)"};
 `;
 
 const FlipCardInner = styled.div`
@@ -36,36 +32,31 @@ const FlipCardInner = styled.div`
     display: flex;
     justify-content: center;
     margin: auto;
+
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    :hover {
+        ${RotateCss}
+    }
+`;
+
+const FlipCardCss = css`
+    object-fit: cover;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: black;
 `;
 
 const FlipCardFront = styled.div`
-    object-fit: cover;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    color: black;
-    word-wrap: break-word;
+    ${FlipCardCss}
 `;
 
 const FlipCardBack = styled.div`
-    object-fit: cover;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    color: black;
-    word-wrap: break-word;
-    ${(props) =>
-        props.rotate === "xAxis"
-            ? css`
-                  transform: rotateX(180deg);
-              `
-            : css`
-                  transform: rotateY(180deg);
-              `}
+    ${FlipCardCss}
+    ${RotateCss}
 `;
 
 const FlipCard = (props) => {
